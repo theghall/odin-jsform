@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
+    <div id="form-errors"></div>
     <form action="#">
-      <label for="country">Country:</label>
+      <label id="reg" for="country">Country:</label>
       <input type="text" name="country" autofocus>
       <label for="zip">Zip:</label>
       <input type="text" name="zip">
       <label for="email">Email:</label>
-      <input type="text" name="email">
+      <input type="email" name="email">
       <label for="email_confirm">Email Confirmation:</label>
-      <input type="text" name="email_confirm">
+      <input type="email" name="email_confirm">
       <label for="password">Password:</label>
-      <input type="text" name="password">
+      <input type="password" name="password">
       <label for="password_confirm">Password Confirmation:</label>
-      <input type="text" name="password_confirm">
+      <input type="password" name="password_confirm">
+      <input id="reg-submit" type="submit" value="Submit">
     </form>
     <script src="bundle.js"></script>
   </body>
